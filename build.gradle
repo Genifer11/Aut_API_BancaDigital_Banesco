@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.3'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    implementation 'com.intuit.karate:karate-junit5:1.4.0.RC3'
+    testImplementation 'net.masterthought:cucumber-reporting:5.7.5'
+    implementation 'commons-io:commons-io:2.7'
+    implementation 'org.apache.oltu.oauth2:org.apache.oltu.oauth2.client:1.0.2'
+}
+
+test {
+    useJUnitPlatform()
+
+}
+
+sourceSets {
+    test{
+        resources {
+            srcDir file('src/test/java')
+            exclude '**/*.java'
+        }
+    }
+}

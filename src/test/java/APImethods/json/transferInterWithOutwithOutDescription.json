@@ -1,0 +1,50 @@
+{
+  "Beneficiary":{
+    "AcctKey":{
+
+    },
+    "OrgData":{
+      "Contact":{
+        "Locator":{
+          "PostAddr":{
+
+            "City":{
+
+            }
+          }
+        }
+      },
+      "Staff":{
+
+      }
+    },
+    "PersonName":{
+
+    }
+  },
+  "TransferInfo":{
+    "Category":"5",
+
+    "FIData":{
+      "FIIdent":"AABASESSXXX"
+    },
+    "FromAcctRef":{
+      "AcctKey":{
+        "AcctId":"221020487344"
+      }
+    },
+    "FromCurAmt":{
+      "CurCode":"USD",
+      "Amt":"0.10"
+    },
+    "ToAcctRef":{
+      "Desc":"Remesa Familiar"
+    },
+    "ToCurAmt":{
+      "Amt":"73.61",
+      "CurCode":"EUR"
+    },
+    "TransferSubType":"PAGOS-INTERNACIONALESINMEDIATA.EJECUTAR",
+    "TransferType":"OTI3"
+  }
+}
