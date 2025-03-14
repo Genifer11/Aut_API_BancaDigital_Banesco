@@ -1,0 +1,32 @@
+{
+  "Beneficiary": {
+    "PersonName": {
+      "FullName": "Luis Jose Meneses Qa "
+    }
+  },
+  "PartyKey": {
+    "PartyId": "600092528"
+  },
+  "TransferInfo": {
+    "Desc": "",
+    "FromCurAmt": {
+      "Amt": 1.15,
+      "CurCode": "EUR"
+    },
+    "TransferSubtype": "22",
+    "TransferType": "DFGFDGFDGFDG",
+    "FromAcctRef": {
+      "AcctKey": {
+        "AcctId": "1000384972"
+      }
+    },
+    "ToAcctRef": {
+      "FIData": {
+        "FIIdent": "COLOPAPA"
+      },
+      "AcctKey": {
+        "AcctId": "00258431108"
+      }
+    }
+  }
+}

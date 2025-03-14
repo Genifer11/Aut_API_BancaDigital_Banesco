@@ -1,0 +1,50 @@
+{
+  "Beneficiary":{
+    "AcctKey":{
+      "AcctId":"201001987976"
+    },
+    "OrgData":{
+      "Contact":{
+        "Locator":{
+          "PostAddr":{
+            "Addr1":"Recoleta Calle 23",
+            "City":{
+              "Desc":"Panamá PA"
+            }
+          }
+        }
+      },
+      "Staff":{
+        "BirthDt":"1953-12-20"
+      }
+    },
+    "PersonName":{
+
+    }
+  },
+  "TransferInfo":{
+    "Category":"5",
+    "Desc":"TRN INTL SWIFT SIN INTERMEDIARIO",
+    "FIData":{
+      "FIIdent":"AABASESSXXX"
+    },
+    "FromAcctRef":{
+      "AcctKey":{
+        "AcctId":"221020487344"
+      }
+    },
+    "FromCurAmt":{
+      "CurCode":"USD",
+      "Amt":"0.10"
+    },
+    "ToAcctRef":{
+      "Desc":"Remesa Familiar"
+    },
+    "ToCurAmt":{
+      "Amt":"73.61",
+      "CurCode":"EUR"
+    },
+    "TransferSubType":"PAGOS-INTERNACIONALESINMEDIATA.EJECUTAR",
+    "TransferType":"OTI3"
+  }
+}

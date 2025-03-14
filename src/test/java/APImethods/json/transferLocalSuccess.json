@@ -1,0 +1,20 @@
+{
+  "TransferInfo":{
+    "Desc":"Transfer Propias USD-USD",
+    "FromCurAmt":{
+      "Amt":"5.00",
+      "CurCode":"USD"
+    },
+    "TransferType":"ACI6",
+    "FromAcctRef":{
+      "AcctKey":{
+        "AcctId":"201800258107"
+      }
+    },
+    "ToAcctRef":{
+      "AcctKey":{
+        "AcctId":"221020592822"
+      }
+    }
+  }
+}

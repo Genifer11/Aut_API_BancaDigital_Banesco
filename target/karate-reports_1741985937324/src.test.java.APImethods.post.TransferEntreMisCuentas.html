@@ -27,7 +27,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 });
 </script>
 
-    <title>src.test.java.APImethods.post.ExampleTransferInternational</title>
+    <title>src.test.java.APImethods.post.TransferEntreMisCuentas</title>
   </head>
   <body>
     <div id="root-container">
@@ -50,13 +50,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2025-03-14 03:59:02 p. m.</div>
+    <div>2025-03-14 03:48:02 p. m.</div>
   </div>
 </div>
 
         <div class="nav-container">
           <div class="nav-item failed">
-            <a href="#[6:75]"><span>[6:75]</span> <span>Transf. internacional erronea sin nombre del beneficiario</span></a>
+            <a href="#[8:100]"><span>[8:100]</span> <span>Transferencia a otro banco sin numero de identificacion en T24</span></a>
           </div>
         </div>
       </div>
@@ -65,34 +65,34 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
           <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
           <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
           <span class="feature-label">Feature:</span>
-          <span class="feature-path">src/test/java/APImethods/post/ExampleTransferInternational.feature</span><span class="feature-label">|</span>
-          <span class="feature-name">Transferir - Internacional</span>
+          <span class="feature-path">src/test/java/APImethods/post/TransferEntreMisCuentas.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Transferir - Entre mis cuentas</span>
           <span class="feature-description"></span>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[6:75]">
+          <div class="scenario-heading" id="[8:100]">
             <div class="heading-container">
               <div class="scenario-tags">
                 
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[6:75]</span>
-                <span class="scenario-name">Transf. internacional erronea sin nombre del beneficiario</span>
+                Scenario: <span>[8:100]</span>
+                <span class="scenario-name">Transferencia a otro banco sin numero de identificacion en T24</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>3663</span>
+              <span>ms:</span>&nbsp;<span>2633</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[6:75]bg">
+            <div class="step-container" id="[8:100]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[6:75]bg"><div>
+          <div data-parent="[8:100]bg"><div>
   
 
   
@@ -102,7 +102,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref bg-step">4</div>
       
       <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>url &#39;https://test.api.ob.banesco.com.pa/transfer/v3/transfers/accounts/intl&#39;</span>
+        <span>*</span>&nbsp;<span>url &#39;https://test.api.ob.banesco.com.pa/transfer/v3/transfers/accounts&#39;</span>
       </div>
     </div>
     <div class="time-cell passed">1</div>
@@ -120,7 +120,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
 </div>
 </div>
-          <div data-parent="[6:75]bg"><div>
+          <div data-parent="[8:100]bg"><div>
   
 
   
@@ -148,7 +148,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
 </div>
 </div>
-          <div data-parent="[6:75]bg"><div>
+          <div data-parent="[8:100]bg"><div>
   
 
   
@@ -161,7 +161,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def accessToken = AccesToken.getAccessToken()</span>
       </div>
     </div>
-    <div class="time-cell passed">621</div>
+    <div class="time-cell passed">814</div>
   </div>
 
    
@@ -176,7 +176,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
 </div>
 </div>
-          <div data-parent="[6:75]bg"><div>
+          <div data-parent="[8:100]bg"><div>
   
 
   
@@ -189,7 +189,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>print &#39;Access Token:&#39;, accessToken</span>
       </div>
     </div>
-    <div class="time-cell passed">6</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -198,7 +198,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.7">15:58:59.010 [print] Access Token: eyJraWQiOiIrUW5PM0hhK2Y0ZTBraHZyTVZGQmdocHE5aU5RUlNwRUdRNTRKdVhVZXRjPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI0MTM1dmVuMTM5amUzcGM0aXBsdTdrcHA0OCIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiaHR0cHM6XC9cL3Rlc3QuYXBpLm9iLmJhbmVzY28uY29tLnBhXC92MS50cmFuc2ZlcnMiLCJhdXRoX3RpbWUiOjE3NDE5ODU5MzksImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC51cy1lYXN0LTEuYW1hem9uYXdzLmNvbVwvdXMtZWFzdC0xX3phNVJXWEN0cCIsImV4cCI6MTc0MTk4OTUzOSwiaWF0IjoxNzQxOTg1OTM5LCJ2ZXJzaW9uIjoyLCJqdGkiOiI3Mzk1ZWE3ZC05OGY5LTRkZjctOTdmYi0zMjg0NTViMWJjYzUiLCJjbGllbnRfaWQiOiI0MTM1dmVuMTM5amUzcGM0aXBsdTdrcHA0OCJ9.RRVeU9U7OKJXJQ0rl4C3eX4iR8ybxpbyENQ2f6NYT79qvyNxHGN4llzEZkhz1UoM_j1oOsY4nXSzmtHTYQJK0dhi_d9xx4Ua_nx0hYzBO5POMS7AhPQds6mgImGUoWze92bR7V0yt4frCKOHiQOskT5v93kDzgCxV0snAXmDPBHJLgAyNVkWbUh_c8s4KZzhi-_mwlC4kfEXmVTZh74ckN-moXR-ttHFkhjRF53WPnolPvuFV_kHEbaQG_NBNvKB_i6m5I3jJ3GobJt7M08RdGvglf2YhF9zaP-n0IAgxb793zq1qxs-cEM0Y7xI9WH2jm0_abH26_xDQLdsoYlEqA 
+  <div class="preformatted" data-parent="0.7">15:48:00.326 [print] Access Token: eyJraWQiOiIrUW5PM0hhK2Y0ZTBraHZyTVZGQmdocHE5aU5RUlNwRUdRNTRKdVhVZXRjPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI0MTM1dmVuMTM5amUzcGM0aXBsdTdrcHA0OCIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiaHR0cHM6XC9cL3Rlc3QuYXBpLm9iLmJhbmVzY28uY29tLnBhXC92MS50cmFuc2ZlcnMiLCJhdXRoX3RpbWUiOjE3NDE5ODUyODAsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC51cy1lYXN0LTEuYW1hem9uYXdzLmNvbVwvdXMtZWFzdC0xX3phNVJXWEN0cCIsImV4cCI6MTc0MTk4ODg4MCwiaWF0IjoxNzQxOTg1MjgwLCJ2ZXJzaW9uIjoyLCJqdGkiOiI4NjVkYTAxNS1lZTJkLTQ0NWMtOWQwZC0yYjczMTgxMzViOTMiLCJjbGllbnRfaWQiOiI0MTM1dmVuMTM5amUzcGM0aXBsdTdrcHA0OCJ9.EKLkXj2RtQxgpJTnZ_B4HetsBWiFMzONtTXOjJV2Vfj59psNmDbTEEWssDDk4DbadEYVQGHM5Sj0WfKhQzF94c8p1LOhaFlczpLiB3-xLP504FWBuBxZpxht8LNOg_-0dOYznqizYYlE1NnED3WI1eueEYZBJwNZ4GFRJ1L6J4EHP8rBnwCx90CXShUc0-DO1Cc3ieqvpjognsDhdxEAyuNykhOys3v4SSNwifu9JvKWy-35agbmHLHbWamUsefMxe2NvxcYI7Ba8zOAMlJCJpUO6AoUepdOB4eFG0U0PHn9ZhA3aBgFu48AR8z9gnxG7qFXtAXs6KznQpRHIwBtLw 
 </div>   
 
   
@@ -211,14 +211,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.76">
-      <div class="step-ref passed">76</div>
+    <div class="step-container" id="0.101">
+      <div class="step-ref passed">101</div>
       
       <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>def jsonRequest = read(&#39;classpath:APImethods/json/transferInterWithoutFullName.json&#39;)</span>
+        <span>*</span>&nbsp;<span>def jsonRequest = read(&#39;classpath:APImethods/json/transferLocalWithoutPartyId.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">46</div>
+    <div class="time-cell passed">36</div>
   </div>
 
    
@@ -239,14 +239,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.77">
-      <div class="step-ref passed">77</div>
+    <div class="step-container" id="0.102">
+      <div class="step-ref passed">102</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>header Authorization = &#39;Bearer &#39; + accessToken</span>
       </div>
     </div>
-    <div class="time-cell passed">6</div>
+    <div class="time-cell passed">5</div>
   </div>
 
    
@@ -267,8 +267,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.78">
-      <div class="step-ref passed">78</div>
+    <div class="step-container" id="0.103">
+      <div class="step-ref passed">103</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>header RequestId = &#39;202207280085&#39;</span>
@@ -295,8 +295,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.79">
-      <div class="step-ref passed">79</div>
+    <div class="step-container" id="0.104">
+      <div class="step-ref passed">104</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>header ClientDt = &#39;2022-07-28T18:15:37&#39;</span>
@@ -323,8 +323,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.80">
-      <div class="step-ref passed">80</div>
+    <div class="step-container" id="0.105">
+      <div class="step-ref passed">105</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>header UserId = &#39;USRBOLINPUT&#39;</span>
@@ -351,8 +351,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.81">
-      <div class="step-ref passed">81</div>
+    <div class="step-container" id="0.106">
+      <div class="step-ref passed">106</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>header ChannelId = &#39;WebBanking&#39;</span>
@@ -379,14 +379,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.82">
-      <div class="step-ref passed">82</div>
+    <div class="step-container" id="0.107">
+      <div class="step-ref passed">107</div>
       
       <div class="step-cell passed">
         <span>Given</span>&nbsp;<span>request jsonRequest</span>
       </div>
     </div>
-    <div class="time-cell passed">6</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -407,14 +407,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.83">
-      <div class="step-ref passed">83</div>
+    <div class="step-container" id="0.108">
+      <div class="step-ref passed">108</div>
       
       <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">2960</div>
+    <div class="time-cell passed">1757</div>
   </div>
 
    
@@ -423,32 +423,32 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.83">15:58:59.198 request:
-1 &gt; POST https://test.api.ob.banesco.com.pa/transfer/v3/transfers/accounts/intl
-1 &gt; Authorization: Bearer eyJraWQiOiIrUW5PM0hhK2Y0ZTBraHZyTVZGQmdocHE5aU5RUlNwRUdRNTRKdVhVZXRjPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI0MTM1dmVuMTM5amUzcGM0aXBsdTdrcHA0OCIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiaHR0cHM6XC9cL3Rlc3QuYXBpLm9iLmJhbmVzY28uY29tLnBhXC92MS50cmFuc2ZlcnMiLCJhdXRoX3RpbWUiOjE3NDE5ODU5MzksImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC51cy1lYXN0LTEuYW1hem9uYXdzLmNvbVwvdXMtZWFzdC0xX3phNVJXWEN0cCIsImV4cCI6MTc0MTk4OTUzOSwiaWF0IjoxNzQxOTg1OTM5LCJ2ZXJzaW9uIjoyLCJqdGkiOiI3Mzk1ZWE3ZC05OGY5LTRkZjctOTdmYi0zMjg0NTViMWJjYzUiLCJjbGllbnRfaWQiOiI0MTM1dmVuMTM5amUzcGM0aXBsdTdrcHA0OCJ9.RRVeU9U7OKJXJQ0rl4C3eX4iR8ybxpbyENQ2f6NYT79qvyNxHGN4llzEZkhz1UoM_j1oOsY4nXSzmtHTYQJK0dhi_d9xx4Ua_nx0hYzBO5POMS7AhPQds6mgImGUoWze92bR7V0yt4frCKOHiQOskT5v93kDzgCxV0snAXmDPBHJLgAyNVkWbUh_c8s4KZzhi-_mwlC4kfEXmVTZh74ckN-moXR-ttHFkhjRF53WPnolPvuFV_kHEbaQG_NBNvKB_i6m5I3jJ3GobJt7M08RdGvglf2YhF9zaP-n0IAgxb793zq1qxs-cEM0Y7xI9WH2jm0_abH26_xDQLdsoYlEqA
+  <div class="preformatted" data-parent="0.108">15:48:00.470 request:
+1 &gt; POST https://test.api.ob.banesco.com.pa/transfer/v3/transfers/accounts
+1 &gt; Authorization: Bearer eyJraWQiOiIrUW5PM0hhK2Y0ZTBraHZyTVZGQmdocHE5aU5RUlNwRUdRNTRKdVhVZXRjPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI0MTM1dmVuMTM5amUzcGM0aXBsdTdrcHA0OCIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiaHR0cHM6XC9cL3Rlc3QuYXBpLm9iLmJhbmVzY28uY29tLnBhXC92MS50cmFuc2ZlcnMiLCJhdXRoX3RpbWUiOjE3NDE5ODUyODAsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC51cy1lYXN0LTEuYW1hem9uYXdzLmNvbVwvdXMtZWFzdC0xX3phNVJXWEN0cCIsImV4cCI6MTc0MTk4ODg4MCwiaWF0IjoxNzQxOTg1MjgwLCJ2ZXJzaW9uIjoyLCJqdGkiOiI4NjVkYTAxNS1lZTJkLTQ0NWMtOWQwZC0yYjczMTgxMzViOTMiLCJjbGllbnRfaWQiOiI0MTM1dmVuMTM5amUzcGM0aXBsdTdrcHA0OCJ9.EKLkXj2RtQxgpJTnZ_B4HetsBWiFMzONtTXOjJV2Vfj59psNmDbTEEWssDDk4DbadEYVQGHM5Sj0WfKhQzF94c8p1LOhaFlczpLiB3-xLP504FWBuBxZpxht8LNOg_-0dOYznqizYYlE1NnED3WI1eueEYZBJwNZ4GFRJ1L6J4EHP8rBnwCx90CXShUc0-DO1Cc3ieqvpjognsDhdxEAyuNykhOys3v4SSNwifu9JvKWy-35agbmHLHbWamUsefMxe2NvxcYI7Ba8zOAMlJCJpUO6AoUepdOB4eFG0U0PHn9ZhA3aBgFu48AR8z9gnxG7qFXtAXs6KznQpRHIwBtLw
 1 &gt; RequestId: 202207280085
 1 &gt; ClientDt: 2022-07-28T18:15:37
 1 &gt; UserId: USRBOLINPUT
 1 &gt; ChannelId: WebBanking
 1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 577
+1 &gt; Content-Length: 326
 1 &gt; Host: test.api.ob.banesco.com.pa
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.6)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;Beneficiary&quot;:{&quot;AcctKey&quot;:{&quot;AcctId&quot;:&quot;201001987976&quot;},&quot;OrgData&quot;:{&quot;Contact&quot;:{&quot;Locator&quot;:{&quot;PostAddr&quot;:{&quot;Addr1&quot;:&quot;Recoleta Calle 23&quot;,&quot;City&quot;:{&quot;Desc&quot;:&quot;Panamá PA&quot;}}}},&quot;Staff&quot;:{&quot;BirthDt&quot;:&quot;1953-12-20&quot;}},&quot;PersonName&quot;:{}},&quot;TransferInfo&quot;:{&quot;Category&quot;:&quot;5&quot;,&quot;Desc&quot;:&quot;TRN INTL SWIFT SIN INTERMEDIARIO&quot;,&quot;FIData&quot;:{&quot;FIIdent&quot;:&quot;AABASESSXXX&quot;},&quot;FromAcctRef&quot;:{&quot;AcctKey&quot;:{&quot;AcctId&quot;:&quot;221020487344&quot;}},&quot;FromCurAmt&quot;:{&quot;CurCode&quot;:&quot;USD&quot;,&quot;Amt&quot;:&quot;0.10&quot;},&quot;ToAcctRef&quot;:{&quot;Desc&quot;:&quot;Remesa Familiar&quot;},&quot;ToCurAmt&quot;:{&quot;Amt&quot;:&quot;73.61&quot;,&quot;CurCode&quot;:&quot;EUR&quot;},&quot;TransferSubType&quot;:&quot;PAGOS-INTERNACIONALESINMEDIATA.EJECUTAR&quot;,&quot;TransferType&quot;:&quot;OTI3&quot;}}
+{&quot;Beneficiary&quot;:{&quot;PersonName&quot;:{&quot;FullName&quot;:&quot;Luis Jose Meneses Qa &quot;}},&quot;PartyKey&quot;:{},&quot;TransferInfo&quot;:{&quot;Desc&quot;:&quot;&quot;,&quot;FromCurAmt&quot;:{&quot;Amt&quot;:1.15,&quot;CurCode&quot;:&quot;EUR&quot;},&quot;TransferSubtype&quot;:&quot;22&quot;,&quot;TransferType&quot;:&quot;AC22&quot;,&quot;FromAcctRef&quot;:{&quot;AcctKey&quot;:{&quot;AcctId&quot;:&quot;1000384972&quot;}},&quot;ToAcctRef&quot;:{&quot;FIData&quot;:{&quot;FIIdent&quot;:&quot;COLOPAPA&quot;},&quot;AcctKey&quot;:{&quot;AcctId&quot;:&quot;00258431108&quot;}}}}
 
-15:59:02.030 response time in milliseconds: 2829
+15:48:02.125 response time in milliseconds: 1652
 1 &lt; 200
-1 &lt; Date: Fri, 14 Mar 2025 20:59:02 GMT
+1 &lt; Date: Fri, 14 Mar 2025 20:48:02 GMT
 1 &lt; Content-Type: application/json
 1 &lt; Content-Length: 89
 1 &lt; Connection: keep-alive
-1 &lt; x-amzn-RequestId: ad447ef7-b45a-48ca-9b0d-7057b007616a
+1 &lt; x-amzn-RequestId: 2419faf5-1a91-48d6-bd20-f869b8809e8d
 1 &lt; access-control-allow-origin: *
-1 &lt; x-amz-apigw-id: HbzHJEtBoAMFxUw=
-1 &lt; X-Amzn-Trace-Id: Root=1-67d49893-3ee902247c00900066f30504
-{&quot;ApplicationId&quot;: &quot;FT25073RWN4MG&quot;, &quot;Status&quot;: {&quot;StatusCode&quot;: &quot;M0000&quot;, &quot;StatusDesc&quot;: &quot;OK&quot;}}
+1 &lt; x-amz-apigw-id: HbxgNEI3IAMFShw=
+1 &lt; X-Amzn-Trace-Id: Root=1-67d49600-75d5749b1d6b7c4c35af3f35
+{&quot;ApplicationId&quot;: &quot;FT25073HQGNYK&quot;, &quot;Status&quot;: {&quot;StatusCode&quot;: &quot;M0000&quot;, &quot;StatusDesc&quot;: &quot;OK&quot;}}
 
 </div>   
 
@@ -462,8 +462,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.84">
-      <div class="step-ref passed">84</div>
+    <div class="step-container" id="0.109">
+      <div class="step-ref passed">109</div>
       
       <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 200</span>
@@ -490,8 +490,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.85">
-      <div class="step-ref failed">85</div>
+    <div class="step-container" id="0.110">
+      <div class="step-ref failed">110</div>
       
       <div class="step-cell failed">
         <span>And</span>&nbsp;<span>match $.Status.StatusCode != &quot;M0000&quot;</span>
@@ -506,14 +506,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.85">15:59:02.040 src/test/java/APImethods/post/ExampleTransferInternational.feature:85
+  <div class="preformatted" data-parent="0.110">15:48:02.137 src/test/java/APImethods/post/TransferEntreMisCuentas.feature:110
 And match $.Status.StatusCode != &quot;M0000&quot;
 match failed: NOT_EQUALS
   $ | is equal (STRING:STRING)
   &#39;M0000&#39;
   &#39;M0000&#39;
 
-src/test/java/APImethods/post/ExampleTransferInternational.feature:85
+src/test/java/APImethods/post/TransferEntreMisCuentas.feature:110
 </div>   
 
   
